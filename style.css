@@ -35,18 +35,14 @@
     border: 1px solid gray;
 }
 
-.operator {
-    background-color: hsl(160, 100%, 75%);
+.operator, #equals {
+    background-color: orange;
 }
 
-.operator:hover {
-    background-color: hsl(160, 90%, 65%);
+#clear {
+    background-color: lightgray;
 }
 
-#equals {
-    background-color: hsl(14, 100%, 71%);
-}
-
-#equals:hover {
-    background-color: hsl(14, 90%, 61%);
+button:focus, button:hover {
+    filter: brightness(95%);
 }
